@@ -1,0 +1,89 @@
+@media (max-width: 900px) {
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5, h6{
+        font-size: 15px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .top-nav , .nav .form ,.general-product .tab-list-content, .new-products .tab-list-content ,
+    .new-products .prodcut-content-list .row.list-grid .product-box .product-content p{
+        display: none;
+    }
+    .nav .bottom-nav{
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        position: fixed;
+        top: 100px;
+        right: -100%;
+        z-index: 999;
+        transition: all .5s linear;
+    }
+    .hamburger{
+        display: block !important;
+    }
+    .acitve-nav{
+        right: 0% !important;
+    }
+    .nav .bottom-nav .nav-items {
+        flex-direction: column;
+
+    }
+    .nav .mid-nav .button-groups{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .nav .mid-nav .image-content img{
+        width: 80%;
+    }
+    .nav .mid-nav .button-groups .dropdown{
+        margin: 0px 5px !important;
+    }
+    header .item .content .buttons-contain ,.skin-offers .content
+    {
+        padding: 0px !important;
+    }
+    header .item .image-content img {
+        height: 200px;
+    }
+    .nav .mid-nav .button-groups .cart-shape .dropdown-menu{
+        min-width: 300px !important;
+    }
+    .nav .mid-nav .button-groups .cart-shape .dropdown-menu .buttons-contain{
+        flex-direction: row !important;
+        display: flex;
+        justify-content: space-around;
+    }
+    .general-product .prodcut-content-list .row.list-grid .product-box, .new-products .prodcut-content-list .row.list-grid .product-box{
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+    .general-product .prodcut-content-list .row.list-grid .product-box .image-content, 
+    .general-product .prodcut-content-list .row.list-grid .product-box .product-content, 
+    .new-products .prodcut-content-list .row.list-grid .product-box .product-content{
+        width: 100% !important;
+    }
+    .general-product .prodcut-content-list .row.list-grid, .new-products .prodcut-content-list .row.list-grid , 
+    .new-products .prodcut-content-list .row.small-grid ,.general-product .prodcut-content-list .row.small-grid ,
+    .general-product .prodcut-content-list .row.grid , .new-products .prodcut-content-list .row.grid
+    {
+        flex-direction: column;
+    }
+    .general-product .prodcut-content-list .row.list-grid .product-box , .new-products .prodcut-content-list .row.list-grid .product-box  , 
+    .new-products .prodcut-content-list .row.small-grid .product-box  ,.general-product .prodcut-content-list .row.small-grid .product-box  ,
+    .general-product .prodcut-content-list .row.grid  .product-box , .new-products .prodcut-content-list .row.grid .product-box 
+    {
+        flex: 0 0 90%;
+        max-width: 90%;
+        margin: 0px auto 3rem auto !important;
+    }
+}

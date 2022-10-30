@@ -1,0 +1,11 @@
+                         : : : : : LOGIN DETAILS : : : : : 
+
+ADMIN PANEL LOGIN:
+
+Username: prog.basma2@gmail.com
+Password: 123456
+
+USER LOGIN:
+
+Username: yahiaahmed1119@gmail.com
+Password: 123

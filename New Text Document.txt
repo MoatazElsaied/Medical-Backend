@@ -1,0 +1,12 @@
+DB analysis , design
+user menu cases
+signin , sign up , forget password , sign out ,  setting
+products ,single product pagination DB
+contact us (php mailer)
+add to cart , like , cart 
+checkout , payment 
+dashboard
+=================================
+emailproject20@gmail.com
+123456789@@
+===============================
